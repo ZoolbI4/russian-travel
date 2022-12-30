@@ -13,7 +13,7 @@
   z-index: 1;
   text-decoration: none;
 }
-.cover__background:after {
+.cover__background::after {
   content: '';
   width: 100%;
   height: 100%;
@@ -25,7 +25,7 @@
   transition: opacity .2s linear;
 }
 
-.cover__background:hover:after {
+.cover__background:hover::after {
   opacity: .8;
 }
 

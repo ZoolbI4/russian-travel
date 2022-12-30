@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1280px) {
   .lead__image {
-    margin: calc(2.5rem + (100vw - 320px) / (768 - 320) * (56 - 40)) auto 0;
+    margin: calc(2.5rem + (100vw - 320px) / (768 - 320) * (56 - 45)) auto 0;
   }
 }
 
